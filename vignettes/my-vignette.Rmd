@@ -12,3 +12,31 @@ vignette: >
 ## Purpose
 
 This package is built by Kai Huo for HW5 of QMSS 5072 Modern Data Structures, Fall 2017. 
+
+## Functions
+
+The package has two functions: 
+
+* `compounded_return()`: takes a vector of prices to calculate compounded return for each time unit.
+
+* `return_viz()`: uses `ggplot2` package to demonstrate a line plot of compounded returns in the period.
+
+and a dataset:
+
+* `indice_list`: contains the daily prices and compounded returns of 8 indices from 1999-01-04 to 2016-12-08.
+
+## Example
+
+Calculating the compounded return of one index in `indice_list`.
+
+```{r}
+library(hk01)
+head(compounded_return(indice_list$`SPTR Index`$Price), 10)
+```
+
+Using `return_viz()` to create a plot.
+
+```{r, warning=FALSE}
+return_viz(indice_list$`SPTR Index`$Comp_Return, period = indice_list$`SPTR Index`$`SPTR Index`)
+```
+

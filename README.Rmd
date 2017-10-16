@@ -4,14 +4,6 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
-)
-```
-
 This package is built by Kai Huo for HW5 of QMSS 5072 Modern Data Structures, Fall 2017.
 
 The package contains two functions and one data set, with description, license, documentation, vignettes and readme as well, and passed `check()`.
