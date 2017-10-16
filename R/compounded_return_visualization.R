@@ -19,5 +19,4 @@ return_viz <- function(return_vector, period = c(1:length(return_vector))) {
   dat <- data.frame(compounded_return = return_vector, time = period)
   ggplot(dat, aes(x = time, y = compounded_return)) + geom_line() + theme_classic() +
     ggtitle("Compounded Return")
-    ggtitle("Compounded Return")
 }
