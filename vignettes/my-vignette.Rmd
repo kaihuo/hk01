@@ -1,0 +1,14 @@
+---
+title: "Package: hk01"
+author: "Kai Huo"
+date: "Oct 15 2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Purpose
+
+This package is built by Kai Huo for HW5 of QMSS 5072 Modern Data Structures, Fall 2017. 

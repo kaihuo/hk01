@@ -1,0 +1,15 @@
+Package: hk01
+Type: Package
+Title: Shortcut to calculate compounded return and to visualize it
+Version: 0.1.0
+Authors@R: person("Kai", "Huo", email = "k.huo@columbia.edu", role = c("aut", "cre", "mdc"))
+Description: This package is built for QMSS 5072 Data Structure course. 
+        The package contains two functions. One is for calculating the compounded return for a vector of prices. The other one shows a simple visualization of the compounded returns. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
